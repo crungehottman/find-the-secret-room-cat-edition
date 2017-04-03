@@ -1,6 +1,4 @@
 /* Author: Caleigh Runge-Hottman
- * CS 344 Assignment 2
- *
  */
 
  
@@ -98,7 +96,6 @@ int main() {
    ///////////////////////////////////////////////////////////////////////
    // find most recent directory using STAT() so we know which directory
    // to search for files.
-   // some code from piazza post @234
    ///////////////////////////////////////////////////////////////////////
 
    // get our current directory

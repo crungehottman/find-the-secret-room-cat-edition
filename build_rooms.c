@@ -1,13 +1,11 @@
 /* Author: Caleigh Runge-Hottman
- * CS 344 Program 2
  *
- * Filename: rungehoc.buildrooms.c
  * Description: creates a series of files that hold descriptions of the in-game
  *              rooms  and how the rooms are connected
  *
  * To run: 
- *         $ gcc -o rungehoc.buildrooms rungehoc.buildrooms.c
- *         $ rungehoc.buildrooms
+ *         $ gcc -o build_rooms build_rooms.c
+ *         $ build_rooms
  */
 
 #include <string.h>
@@ -23,7 +21,6 @@ int main() {
    ////////////////////////////////////////////////////////////////////////////
    // build up the rooms directory name string
    // this is used as the dir to store the room files
-   // code adopted from Prof. Brewster's Piazza post @178
    ////////////////////////////////////////////////////////////////////////////
    pid_t myPID = getpid();
    const char* myONID = "rungehoc";
